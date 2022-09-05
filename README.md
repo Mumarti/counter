@@ -1,4 +1,8 @@
 # Counter
+
+![image](https://user-images.githubusercontent.com/74790481/188509031-5cffecdc-0581-4cf1-8c5c-f53b4e263a1b.png)
+
+
 Progetto realizzato per il corso di Start2Impact - Javascript Basics
 
 Realizzare un'applicazione Javascript che funzioni come counter
