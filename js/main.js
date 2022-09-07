@@ -48,13 +48,13 @@ reset.addEventListener('click', ()=> {
     scoreContainer.innerHTML = SCORE;
 
     let resetTag = document.createElement('p');
-    resetTag.style.cssText = 'font-size:30px; color:#fff; background-color:#BE7F89; padding: 3px; border-radius:2px'
+    resetTag.classList.add('reset-tag');
     resetTag.innerText = 'PROVA ANCORA!';
 
     setTimeout(function(){
         resetTag.innerText="";
         resetTag.style.padding = '0';
-    },3000);
+    },2500);
 
     counter.appendChild(resetTag);
 });
