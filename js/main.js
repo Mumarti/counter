@@ -31,21 +31,21 @@ iconContainer.appendChild(minus);
 
 //counter
 
-let SCORE = 0;
+let score = 0;
 
 plus.addEventListener('click', ()=>{
-    SCORE++;
-    scoreContainer.innerHTML = SCORE;
+    score++;
+    scoreContainer.innerHTML = score;
 });
 
 minus.addEventListener('click', ()=>{
-    SCORE--;
-    scoreContainer.innerHTML = SCORE;
+    score--;
+    scoreContainer.innerHTML = score;
 });
 
 reset.addEventListener('click', ()=> {
-    SCORE = 0;
-    scoreContainer.innerHTML = SCORE;
+    score = 0;
+    scoreContainer.innerHTML = score;
 
     let resetTag = document.createElement('p');
     resetTag.classList.add('reset-tag');
@@ -54,7 +54,7 @@ reset.addEventListener('click', ()=> {
     setTimeout(function(){
         resetTag.innerText="";
         resetTag.style.padding = '0';
-    },2500);
+    },2000);
 
     counter.appendChild(resetTag);
 });
