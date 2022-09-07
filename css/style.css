@@ -72,10 +72,18 @@ h2{
     transition-timing-function: ease-in-out;
 }
 
+.reset-tag{
+    font-size:30px;
+    color:#fff;
+    background-color:#BE7F89;
+    padding: 3px;
+    border-radius:2px
+}
+
 @media only screen and (max-width: 700px) {
     .container{
         width: 100%;
-        top:0;
+        top:20px;
         left: 0;
         transform: translate(0, 0);
         padding: 20px 0;
@@ -94,5 +102,10 @@ h2{
     .image{
         height: 50vh;
         width: auto;
+    }
+    .reset-tag{
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
